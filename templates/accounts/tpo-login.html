@@ -1,0 +1,48 @@
+{% extends '../base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="min-vh-100 d-flex align-items-center" style="background: linear-gradient(135deg, #FAFAFA 0%, #F5F5F5 100%);">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <!-- Redesigned TPO login form with modern styling -->
+        <div class="card border-0 shadow-lg" style="border-radius: 16px; overflow: hidden;">
+          <!-- Header -->
+          <div style="background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%); padding: 2rem; text-align: center; color: white;">
+            <h2 class="fw-bold mb-2" style="font-size: 1.8rem;">Placement Officer Login</h2>
+            <p class="mb-0" style="opacity: 0.9;">Manage placements and track analytics</p>
+          </div>
+
+          <!-- Form -->
+          <div class="p-4 p-md-5">
+            <form method="POST">
+              {% csrf_token %}
+              
+              <div class="mb-4">
+                <label for="email" class="form-label fw-semibold" style="color: #333;">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="officer@example.com" required style="border-radius: 8px; border: 1px solid #E0E0E0; padding: 0.75rem 1rem; font-size: 1rem;">
+              </div>
+
+              <div class="mb-4">
+                <label for="password" class="form-label fw-semibold" style="color: #333;">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="••••••••" required style="border-radius: 8px; border: 1px solid #E0E0E0; padding: 0.75rem 1rem; font-size: 1rem;">
+              </div>
+
+              <button class="w-100 btn btn-lg fw-semibold py-3 mb-3" type="submit" style="background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%); color: white; border: none; border-radius: 8px; font-size: 1.1rem;">
+                Sign In
+              </button>
+            </form>
+
+            <div class="text-center">
+              <p class="text-muted mb-0">Need assistance? <a href="#" style="color: #FF6B35; text-decoration: none; font-weight: 600;">Contact support</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

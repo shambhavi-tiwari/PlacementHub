@@ -1,0 +1,322 @@
+[
+  {
+    "model": "authentication.studentmodel",
+    "pk": 1,
+    "fields": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "9876543210",
+      "roll_no": "2025CS001",
+      "skills": "Python, Django",
+      "bio": "Computer Science student passionate about web development.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 2,
+    "fields": {
+      "name": "Isha Patel",
+      "email": "isha.patel@example.com",
+      "phone": "9876543211",
+      "roll_no": "2025CS002",
+      "skills": "Java, SQL",
+      "bio": "Interested in database management and backend development.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 3,
+    "fields": {
+      "name": "Rohan Verma",
+      "email": "rohan.verma@example.com",
+      "phone": "9876543212",
+      "roll_no": "2025CS003",
+      "skills": "C++, Data Structures",
+      "bio": "Competitive programmer and algorithm enthusiast.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 4,
+    "fields": {
+      "name": "Sneha Gupta",
+      "email": "sneha.gupta@example.com",
+      "phone": "9876543213",
+      "roll_no": "2025CS004",
+      "skills": "JavaScript, React",
+      "bio": "Frontend developer with a flair for UI/UX design.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 5,
+    "fields": {
+      "name": "Arjun Singh",
+      "email": "arjun.singh@example.com",
+      "phone": "9876543214",
+      "roll_no": "2025CS005",
+      "skills": "Machine Learning, Python",
+      "bio": "AI enthusiast exploring neural networks.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 6,
+    "fields": {
+      "name": "Priya Rao",
+      "email": "priya.rao@example.com",
+      "phone": "9876543215",
+      "roll_no": "2025CS006",
+      "skills": "Python, Flask",
+      "bio": "Backend developer working on REST APIs.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 7,
+    "fields": {
+      "name": "Karan Mehta",
+      "email": "karan.mehta@example.com",
+      "phone": "9876543216",
+      "roll_no": "2025CS007",
+      "skills": "C, Embedded Systems",
+      "bio": "Interested in hardware-software integration.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 8,
+    "fields": {
+      "name": "Ananya Desai",
+      "email": "ananya.desai@example.com",
+      "phone": "9876543217",
+      "roll_no": "2025CS008",
+      "skills": "JavaScript, Node.js",
+      "bio": "Full-stack developer learning cloud deployment.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 9,
+    "fields": {
+      "name": "Ritvik Kapoor",
+      "email": "ritvik.kapoor@example.com",
+      "phone": "9876543218",
+      "roll_no": "2025CS009",
+      "skills": "SQL, Data Analytics",
+      "bio": "Data enthusiast passionate about insights from numbers.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 10,
+    "fields": {
+      "name": "Sanya Nair",
+      "email": "sanya.nair@example.com",
+      "phone": "9876543219",
+      "roll_no": "2025CS010",
+      "skills": "HTML, CSS, Bootstrap",
+      "bio": "Frontend developer building responsive web apps.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 11,
+    "fields": {
+      "name": "Aditya Bansal",
+      "email": "aditya.bansal@example.com",
+      "phone": "9876543220",
+      "roll_no": "2025CS011",
+      "skills": "Python, Django",
+      "bio": "Web developer focusing on backend architecture.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 12,
+    "fields": {
+      "name": "Meera Iyer",
+      "email": "meera.iyer@example.com",
+      "phone": "9876543221",
+      "roll_no": "2025CS012",
+      "skills": "React, JavaScript",
+      "bio": "Frontend developer with eye for design.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 13,
+    "fields": {
+      "name": "Vivaan Joshi",
+      "email": "vivaan.joshi@example.com",
+      "phone": "9876543222",
+      "roll_no": "2025CS013",
+      "skills": "Java, Spring Boot",
+      "bio": "Backend enthusiast working on APIs.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 14,
+    "fields": {
+      "name": "Tanya Malhotra",
+      "email": "tanya.malhotra@example.com",
+      "phone": "9876543223",
+      "roll_no": "2025CS014",
+      "skills": "Python, ML",
+      "bio": "AI and Machine Learning enthusiast.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 15,
+    "fields": {
+      "name": "Siddharth Chawla",
+      "email": "siddharth.chawla@example.com",
+      "phone": "9876543224",
+      "roll_no": "2025CS015",
+      "skills": "C++, Algorithms",
+      "bio": "Competitive programming and data structures.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 16,
+    "fields": {
+      "name": "Anika Reddy",
+      "email": "anika.reddy@example.com",
+      "phone": "9876543225",
+      "roll_no": "2025CS016",
+      "skills": "Node.js, Express",
+      "bio": "Full-stack developer learning cloud deployment.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 17,
+    "fields": {
+      "name": "Devansh Khanna",
+      "email": "devansh.khanna@example.com",
+      "phone": "9876543226",
+      "roll_no": "2025CS017",
+      "skills": "Python, Django",
+      "bio": "Backend developer exploring REST APIs.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 18,
+    "fields": {
+      "name": "Riya Kapoor",
+      "email": "riya.kapoor@example.com",
+      "phone": "9876543227",
+      "roll_no": "2025CS018",
+      "skills": "JavaScript, React",
+      "bio": "Frontend developer with an eye for UI/UX.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 19,
+    "fields": {
+      "name": "Kabir Jain",
+      "email": "kabir.jain@example.com",
+      "phone": "9876543228",
+      "roll_no": "2025CS019",
+      "skills": "SQL, Data Analysis",
+      "bio": "Data enthusiast exploring insights from databases.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  },
+  {
+    "model": "authentication.studentmodel",
+    "pk": 20,
+    "fields": {
+      "name": "Aadhya Sharma",
+      "email": "aadhya.sharma@example.com",
+      "phone": "9876543229",
+      "roll_no": "2025CS020",
+      "skills": "Python, Flask",
+      "bio": "Backend developer exploring web APIs.",
+      "resume": "",
+      "profile_pic": "",
+      "linkedin_link": "",
+      "github_link": ""
+    }
+  }
+]

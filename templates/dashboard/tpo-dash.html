@@ -1,0 +1,81 @@
+{% extends '../teacher_base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="container my-5">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="fw-bold text-warning">📋 Active Job Listings</h3>
+        <a href="{% url 'create-job' %}" class="btn btn-warning text-dark fw-semibold shadow-sm">
+            + Add New Job
+        </a>
+    </div>
+
+    <!-- Job Cards Grid -->
+    {% if jobs %}
+    <div class="row g-4">
+        {% for job in jobs %}
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100 border-0 shadow-sm job-card-hover rounded-4 px-4 py-3">
+                <div class="d-flex align-items-center mb-3">
+                    {% if job.company.logo %}
+                    <img src="{{ job.company.logo.url }}" alt="Logo"
+                         class="rounded-circle border border-warning border-3 me-3"
+                         width="60" height="60">
+                    {% else %}
+                    <img src="{% static 'img/default-logo.png' %}" alt="Logo"
+                         class="rounded-circle border border-warning border-3 me-3"
+                         width="60" height="60">
+                    {% endif %}
+                    <div>
+                        <h5 class="fw-bold mb-0">{{ job.position }}</h5>
+                        <p class="text-muted mb-0">{{ job.company.company_name }}</p>
+                    </div>
+                </div>
+
+                <p class="text-secondary small mb-3">{{ job.description|truncatewords:25 }}</p>
+
+                <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <span class="fw-bold text-danger">₹{{ job.pay_rate }} / hr</span>
+                    <span class="text-muted small">{{ job.no_of_applicants }} Applicants</span>
+                    <span class="badge bg-warning text-dark">{{ job.last_apply_date }}</span>
+                </div>
+
+                <div class="text-end mt-3">
+                    <a href="{% url 'job-applicants' job.id %}"
+                       class="btn btn-outline-warning btn-sm fw-semibold shadow-sm">
+                        View Applicants
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+        <div class="alert alert-warning mt-4" role="alert">
+            No job postings yet. Use the <strong>“Add New Job”</strong> button to create one.
+        </div>
+    {% endif %}
+</section>
+
+<!-- Custom Styling -->
+<style>
+.job-card-hover {
+    transition: all 0.3s ease;
+    border-top: 4px solid transparent;
+}
+.job-card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(255, 165, 0, 0.3);
+    border-top: 4px solid #ff8c00;
+}
+.btn-warning {
+    background-color: #ff8c00 !important;
+    border: none;
+}
+.btn-warning:hover {
+    background-color: #e07b00 !important;
+}
+</style>
+{% endblock content %}
